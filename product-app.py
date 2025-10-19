@@ -8,6 +8,8 @@ DB_USER = "root"
 DB_PASSWORD = "1234"
 DB_NAME = "final-project"
 
+
+
 def get_connection():
     try:
         conn = mysql.connector.connect(
