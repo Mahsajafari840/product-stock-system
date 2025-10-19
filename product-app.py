@@ -3,10 +3,12 @@ import mysql.connector
 from mysql.connector import Error
 from decimal import Decimal
 
-DB_HOST = 'localhost'
-DB_USER = 'root'
-DB_PASSWORD = '1234'
-DB_NAME = 'final-project'
+DB_HOST = "localhost"
+DB_USER = "root"
+DB_PASSWORD = "1234"
+DB_NAME = "final-project"
+
+
 
 def get_connection():
     try:
